@@ -1,4 +1,4 @@
-![alt text](https://github.com/AndresDlg562/HackMtyChuyy/blob/main/MacBook%20Pro%2016_%20-%201.png)
+![alt text](https://github.com/AndresDlg562/HackMtyChuyy/blob/main/MacBook%20Pro%2016_%20-%206.png)
 ![alt text]()
 ![alt text]()
 ![alt text]()
