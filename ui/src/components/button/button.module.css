@@ -1,0 +1,31 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    font-size: 1vw;
+    padding: 0.6vw 1.5vw;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button>svg {
+    width: 1.5vw;
+    height: 1.5vw;
+    margin-right: 0.8vw;
+}
+
+.black {
+    background-color: var(--black);
+    color: var(--white);
+}
+.white {
+    background-color: var(--white);
+    color: var(--black);
+}
+.disabled {
+    background-color: var(--gray);
+    cursor: default;
+}

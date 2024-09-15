@@ -1,0 +1,75 @@
+.circleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2vw;
+}
+
+.outterCircleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--black);
+    width: 3.3vw;
+    height: 3.3vw;
+    border-radius: 100px;
+}
+
+.activeInnerCircleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid var(--white);
+    border-radius: 100px;
+    width: 2.7vw;
+    height: 2.7vw;
+}
+
+.icon {
+    width: 1.3vw;
+    height: 1.3vw;
+    color: var(--white);
+}
+
+.innerCircleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    width: 2.7vw;
+    height: 2.7vw;
+    background: var(--gray);
+}
+
+.doneInnerCircleContainer {
+    background-color: var(--black);
+}
+
+.circleText {
+    margin-top: 1.5vh;
+    font-weight: 500;
+    font-size: 0.8vw;
+}
+
+.progressbarContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2vh;
+}
+
+.divider {
+    position: absolute;
+    z-index: -1;
+    margin-bottom: 1.8vw;
+    margin-right: 10vw;
+    width: 10vw;
+    height: 4px;
+    background-color: var(--gray);
+}
+
+.activeDivider {
+    background-color: var(--black);
+}

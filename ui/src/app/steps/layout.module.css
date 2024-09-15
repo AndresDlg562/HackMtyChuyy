@@ -1,0 +1,129 @@
+.contentContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 72vh;
+    padding-bottom: 8vh;
+}
+
+.sectionsGlobalContainer {
+    width: 18.5vw;
+    margin-right: 2vw;
+}
+
+.title {
+    font-size: 1.7vw;
+    font-weight: 700;
+    margin-bottom: 0.8vh;
+}
+
+.description {
+    width: 17vw;
+    font-size: 0.75vw;
+    font-weight: 300;
+    margin-bottom: 3vh;
+}
+
+.sectionsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--light-gray);
+    width: 100%;
+    height: 40vh;
+    border-radius: 7px;
+    padding: 2vh 1vw;
+}
+
+.sectionContainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    border-radius: 6px;
+    padding: 1vh 1vw;
+    cursor: pointer;
+}
+
+.colorAndTextContainer {
+    display: flex;
+    align-items: center;
+}
+
+.colorContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 100px;
+    margin-right: 1vw;
+    background-color: var(--white);
+}
+
+.inactiveColorContainer {
+    background-color: var(--transparent) !important;
+}
+
+.color {
+    width: 1.55vw;
+    height: 1.55vw;
+    border-radius: 100px;
+}
+
+.sectionName {
+    font-size: 0.8vw;
+    font-weight: 500;
+    background: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.removeSectionIcon {
+    width: 1.4vw;
+    height: 1.4vw;
+    cursor: pointer;
+}
+
+.activeSection {
+    background-color: var(--white);
+}
+
+.sectionIcon {
+    width: 0.4vw;
+    height: 0.4vw;
+}
+
+.addSectionButton {
+    font-size: 0.8vw;
+    padding: 0.3vw 3vw;
+    margin-top: 2vh;
+}
+
+.addSectionButtonWithSections {
+    position: absolute;
+    margin-top: 0;
+    transform: translateY(31vh);
+}
+
+.canvasContainer {
+    position: relative;
+    width: 40vw;
+    height: 50vh;
+    margin-top: 9vh;
+}
+
+.canvas {
+    position: absolute;
+    border-radius: 7px;
+}
+
+.continueButton {
+    position: absolute;
+    bottom: 25vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
